@@ -1,10 +1,10 @@
 import Layout from "@/layout/index.vue";
 import type { RouteRecordRaw } from "vue-router";
 import Demo from "@/views/demo/index.vue";
-
+import Login from "@/views/login/login.vue";
 const routes: Array<RouteRecordRaw> = [
   {
-    path: "/",
+    path: "/s",
     name: "root",
     component: Layout,
     redirect: { name: "Demo" },
@@ -32,6 +32,22 @@ const routes: Array<RouteRecordRaw> = [
         meta: {
           title: "关于",
           noCache: true
+        }
+      }
+    ]
+  },
+  {
+    path: "/",
+    name: "Login",
+    component: Layout,
+    redirect: { name: "login" },
+    children: [
+      {
+        path: "index",
+        name: "login",
+        component: Login,
+        meta: {
+          title: "登录"
         }
       }
     ]
