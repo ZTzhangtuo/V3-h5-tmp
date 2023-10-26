@@ -1,6 +1,6 @@
 <script setup lang="ts">
 interface Props {
-  showMenu: Boolean;
+  showMenu: boolean;
 }
 const props = defineProps<Props>();
 const emit = defineEmits(["onClickOverlay"]);
