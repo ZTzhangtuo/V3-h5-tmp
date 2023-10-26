@@ -5,7 +5,7 @@ import SideMenu from "../SideMenu/sideMenu.vue";
 const onClickRight = () => {
   useToggleDarkMode();
 };
-const showMenu = ref<Boolean>(false);
+const showMenu = ref<boolean>(false);
 const toggeleMenus = () => {
   showMenu.value = !showMenu.value;
 };
