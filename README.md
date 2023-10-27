@@ -1,8 +1,8 @@
 
 
-<div align="center">
+<!-- <div align="center">
 	<img src="src/assets/logo_melomini.png" alt="logo_melomini" style="width:20%;" />
-</div>
+</div> -->
 
 <div align="center">
 	<a href="https://github.com/yulimchen/vue3-h5-template/blob/master/LICENSE">
@@ -40,20 +40,6 @@
 - [x] 首屏加载动画
 - [x] 开发环境调试面板
 - [ ] TODO: 生产环境 CDN 依赖
-
-
-
-## 在线预览Preview
-
-👓 [点击这里](https://yulimchen.github.io/vue3-h5-template/)（PC浏览器请切换手机端模式）
-
-
-
-
-## 截图
-
-![](docs/assets/img/Snipaste_2023-05-04_21-52-10.png)
-
 
 
 ## 运行项目
@@ -200,12 +186,6 @@ router.beforeEach((to: toRouteType, from, next) => {
 
 
 
-### - <span id="mock">开发环境 Mock</span>
-
-> 本项目开发环境支持 mock 请求数据，在 `mock` 目录中可配置接口和数据，具体见[文档](https://github.com/pengzhanbo/vite-plugin-mock-dev-server/blob/main/README.zh-CN.md)。
-
-
-
 ### - <span id="viewport">vw 视口适配</span>
 
 使用 `cnjm-postcss-px-to-viewport` 进行视口适配，相关配置见项目根目录下 `postcss.config.js`。
@@ -231,38 +211,12 @@ module.exports = {
 
 ### - <span id="tailwindcss">Tailwindcss 原子类框架</span>
 
-Tailwindcss 从 3.0 版本开始默认使用 `JIT` 模式，打包代码不再臃肿，结合 `vite` 使用非常香~ 如果你还没使用过类似的框架，Tailwindcss 首页的[示例](https://tailwindcss.com/)非常直观。
-
 官方文档：https://tailwindcss.com/docs/padding
-
 
 
 ### - <span id="git">Git 提交信息规范</span>
 
 项目使用 `husky` 规范 Git 提交信息，遵循社区主流的 [Angular](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular) 规范。
-
-```
-feat 增加新功能
-fix 修复问题/BUG
-style 代码风格相关无影响运行结果的
-perf 优化/性能提升
-refactor 重构
-revert 撤销修改
-test 测试相关
-docs 文档/注释
-chore 依赖更新/脚手架配置修改等
-workflow 工作流改进
-ci 持续集成
-types 类型定义文件更改
-wip 开发中
-```
-
-```
-// 格式
-<type>(<scope>): <subject>
-// 示例
-feat(layout): 布局完成
-```
 
 
 
@@ -277,18 +231,3 @@ feat(layout): 布局完成
 
 
 
-## 鸣谢
-
- [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) 
-
- [vant-demo](https://github.com/youzan/vant-demo) 
-
- [vue-pure-admin](https://github.com/xiaoxian521/vue-pure-admin)
-
- [vue-vben-admin](https://github.com/vbenjs/vue-vben-admin)
-
-
-
-## License
-
-[MIT license](https://github.com/yulimchen/vue3-h5-template/blob/master/LICENSE).
